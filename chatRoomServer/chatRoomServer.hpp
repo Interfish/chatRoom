@@ -31,7 +31,7 @@ class chatRoomServer{
 		
 		chatRoomServer(int SOCK_PORT);
 		int serverHandler();
-		int clientHandler(int sockfd, char* addr);                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                             
+		int clientHandler(int sockfd, char* c_addr);                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                             
 };
 
 #endif

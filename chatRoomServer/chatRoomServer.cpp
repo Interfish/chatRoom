@@ -102,7 +102,8 @@ int chatRoomServer::serverHandler(){
 	return 0;
 }
 
-int chatRoomServer::clientHandler(int fd, char* addr){
+int chatRoomServer::clientHandler(int fd, char*c_addr){
+	std::string addr(c_addr);
 	std::cout << "Client " << chatRoomServer::sockfd.size()-1<< " : "
 		 << addr << " online" << std::endl;
 	int recvBytes;
@@ -122,8 +123,7 @@ int chatRoomServer::clientHandler(int fd, char* addr){
 		if(strcmp(data_recv,"quit")==0)
 			break;
 		std::string text(data_recv);
-		std::string ip_address(addr);
-		text = "--------------------\n" + ip_address + ":\n" + text + "\n"
+		text = "--------------------\n" + addr + ":\n" + text + "\n"
 		     + "--------------------\n";
 		const char* data_send = text.c_str();
 		std::cout << text << std::endl;
