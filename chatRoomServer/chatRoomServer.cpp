@@ -102,7 +102,7 @@ int chatRoomServer::serverHandler(){
 	return 0;
 }
 
-int chatRoomServer::clientHandler(int fd, char*c_addr){
+int chatRoomServer::clientHandler(int fd, char* c_addr){
 	std::string addr(c_addr);
 	std::cout << "Client " << chatRoomServer::sockfd.size()-1<< " : "
 		 << addr << " online" << std::endl;
