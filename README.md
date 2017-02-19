@@ -29,6 +29,10 @@ Run:
 
     ./chatRoomServer portnumber
     
+While running, you can type "shutdown" to shutdown the server.
+
+      shutdown
+      
 ### Client
 Compile:
 
@@ -38,6 +42,10 @@ Run:
 
     java ChatRoomClient IP_of_server portnumber
     
+While running, you can type "quit" to quit the client program.
+
+    quit
+
 ## Examples
 This is a screenshot when server is deployed on an Amazon AWS EC2 and clients are running in my living room.
 ![aws](aws.png)
