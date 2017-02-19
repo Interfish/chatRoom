@@ -17,7 +17,7 @@ prototype folder is only doing for learning purpose. There is a python server an
 
 ## Usage
 Note: If the server and clients are in the same network, server will print it's IP address after start. If they are in different network,
-you need to obtain server's external/public IP by some way. 
+you need to obtain server's external/public IP through some way. 
 
 Port number of server and clients must be the same.
 ### Server
