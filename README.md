@@ -11,7 +11,7 @@ listen on incomming data, and boradcast it to every other client-handlers. The m
 Client side is written in Java. Once running, the client will create two threads. Read thread will listen on incomming data and print them
 on the screen. Write thread will listen on standard input stream for user input and send them through socket. 
 
-prototype folder is only doing for learning purpose. There is a python server and a Java client. It does not affect on the app.
+prototype folder is only doing for learning purpose. There is a python server and a Java client. It does not affect the app.
 
 ![workflow](workflow.png)
 
