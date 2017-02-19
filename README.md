@@ -39,7 +39,7 @@ Run:
     java ChatRoomClient IP_of_server portnumber
     
 ## Examples
-This is a screenshot when server is deployed on an Amazon AWS EC2 and client is running in my living room.
+This is a screenshot when server is deployed on an Amazon AWS EC2 and clienst are running in my living room.
 ![aws](aws.png)
 
 This is a screenshot when server and client are running within my home's local network.
