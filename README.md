@@ -42,5 +42,5 @@ Run:
 This is a screenshot when server is deployed on an Amazon AWS EC2 and clients are running in my living room.
 ![aws](aws.png)
 
-This is a screenshot when server and client are running within my home's local network.
+This is a screenshot when server and client are running within my home's local network through a router.
 ![local](local.png)
