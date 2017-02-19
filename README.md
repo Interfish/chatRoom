@@ -36,7 +36,7 @@ Compile:
     
 Run:
 
-    java ChatRoomClient ip_of_server portnumber
+    java ChatRoomClient IP_of_server portnumber
     
 ## Examples
 This is a screenshot when server is deployed on an Amazon AWS EC2 and client is running in my living room.
